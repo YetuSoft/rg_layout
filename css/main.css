@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    --color-1: #fff;
+    --color-2: #e9e9e9;
+}
+
+body {
+    background-color: var(--color-2);
+    font-family: Verdana, "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif !important;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+button {
+    font-family: Verdana, "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif !important;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul li {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.top-page {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: var(--color-1);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .20);
+    z-index: 2;
+}
+
+.top-page>div {
+    float: left;
+    height: 100%;
+    width: 350px;
+}
+
+.item-buttonl {
+    display: flex;
+    justify-content: left;
+}
+
+.item-buttonr>div,
+.item-buttonl>div {
+    height: 100%;
+    position: relative;
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-buttonr>div select {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.imgs {
+    width: 40px;
+    height: 40px;
+    background: var(--color-2);
+    border-radius: 100%;
+}
+
+button.lniots {
+    position: absolute;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: green;
+    color: #fff;
+}
+
+button.lniots i {
+    padding-right: 5px;
+}
+
+.item-buttonl>div button {
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    border-right: 1px solid #ccc;
+}
+
+.item-buttonr {
+    width: calc(100% - 350px) !important;
+    display: flex;
+    justify-content: right;
+}
+
+.left-page {
+    top: 60px;
+    left: 0;
+    position: absolute;
+    height: auto;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-page .l-center-page {
+    position: relative;
+    background: var(--color-1);
+    width: calc(100% - 40px);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .20);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.left-page .l-center-page ul li>i {
+    padding-right: 8px;
+    font-size: 14px;
+}
+
+.right-page {
+    top: 60px;
+    left: 350px;
+    position: absolute;
+    height: auto;
+    width: calc(100% - 350px);
+}
+
+.r-center-page {
+    position: relative;
+    width: calc(100% - 20px);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.center-container-l-top {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.center-container-l-top h4 {
+    float: left;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.optins-l {
+    float: right;
+    height: 100%;
+    position: relative;
+}
+
+.optins-l>div {
+    float: left;
+    padding: 0 5px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.optins-l button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: var(--color-1);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .20);
+}
